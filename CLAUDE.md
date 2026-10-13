@@ -10,6 +10,7 @@ The user's workspace for writing reusable agent prompts and building their own C
 
 - `prompts/`: standalone prompts for agents and subagents, one file per prompt. Start new ones from `prompts/_template.md`.
 - `skills/`: one folder per skill, each with a `SKILL.md`. `skills/example-skill/` shows the format.
+- `copilot-agents/`: Microsoft Copilot agent versions of skills, for the user's work laptop. Each has `instructions.md` (pasted into the agent's Instructions field, which has an 8,000 limit, so keep it under 8,000 characters) and a `knowledge/` folder of `.md` files that the instructions refer to by file name. When a skill's checklists change, update the copies here too.
 
 ## Skill format
 
